@@ -28,9 +28,15 @@
       Apple Podcasts, Google Podcasts, Pocket Casts and more!</p> 
       
       <div class="input-component">
-        <input class="email-input" type="email" placeholder="Email address">
-        <button class="request-btn">Request access</button>
+        <form novalidate>
+          <label for="email">
+            <input id="email" class="email-input" type="email" placeholder="Email address" required>
+          </label>
+          <button class="request-btn">Request access</button>
+        </form>
       </div>
+      <span class="error"></span>
+
       <div class="logo-container">
         <img class="company-logos" src="./assets/desktop/spotify.svg" alt="spotify logo">
         <img class="company-logos" src="./assets/desktop/apple-podcast.svg" alt="apple podcast logo">

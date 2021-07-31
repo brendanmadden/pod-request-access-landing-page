@@ -1,0 +1,47 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;700&display=swap');
+
+/* Variables */
+
+:root {
+    --heading-color: #54E6AF;
+    --input-fill: #2C344B;
+    --main-bg-color: #121725;
+    --white: #FFFFFF;
+    --logo-color: #5A668A;
+    --main-text-color: #C2CBE5;
+}
+
+/* Reset */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styles */
+
+body {
+    font-family: 'Chivo', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    background-color: var(--main-bg-color);
+    height: 100vh;
+}
+
+.hero-img {
+    grid-column: 7 / 16;
+    grid-row: 2 / 16;
+}
+
+.card-content {
+    grid-column: 4 / 11;
+    grid-row: 6 / 16;
+    background-color: var(--main-bg-color);
+}

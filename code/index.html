@@ -11,17 +11,34 @@
 </head>
 <body>
   <main class="container">
-    <div class="hero-img">
-    <img src="./assets/desktop/image-host.jpg" alt="image of podcast host speaking into mic">
-    </div>
+
+    <img class="logo" src="./assets/desktop/logo.svg" alt="pod logo">
+
+    <div class="hero-image-mask"></div>
+    <div class="hero-image-mask2"></div>
+
+    <img class="hero-img" src="./assets/desktop/image-host.jpg" alt="image of podcast host talking into mic">
+
+    <img class="decoration" src="./assets/desktop/bg-pattern-dots.svg" alt="dot pattern decoration">
+
     <div class="card-content">
-      Publish your podcasts everywhere.
+      <h1 class="heading">Publish your podcasts <span>everywhere.</span></h1>
 
-      Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-      Apple Podcasts, Google Podcasts, Pocket Casts and more!
-
-      Request access
+      <p class="main-text">Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
+      Apple Podcasts, Google Podcasts, Pocket Casts and more!</p> 
+      
+      <div class="input-component">
+        <input class="email-input" type="email" placeholder="Email address">
+        <button class="request-btn">Request access</button>
+      </div>
+      <div class="logo-container">
+        <img class="company-logos" src="./assets/desktop/spotify.svg" alt="spotify logo">
+        <img class="company-logos" src="./assets/desktop/apple-podcast.svg" alt="apple podcast logo">
+        <img class="company-logos" src="./assets/desktop/google-podcasts.svg" alt="google podcast logo">
+        <img class="company-logos" src="./assets/desktop/pocket-casts.svg" alt="pocket casts logo">
+      </div>
     </div>
+
   </main>
   <script src="./app.js"></script>
 </body>

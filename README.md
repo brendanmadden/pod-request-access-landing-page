@@ -29,12 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Live Site URL: [GitHub Pages](https://brendanmadden.github.io/pod-request-access-landing-page/)
 
 ## My process
 

@@ -48,14 +48,16 @@ Users should be able to:
 
 ### What I learned
 
+This project tested me on a few different levels. I learned a few new things throughout this one, including Client-side form validation using JavaScript, and custom styling of form error messages. I also continued to learn how to use CSS Grid and Flexbox more effectively. I was able to more easily layout this project than I was projects in the past, and I would like to continue to build on this moving forward. 
 
 ### Continued development
 
+After completing this project, I realize that I still have a lot of work to do to ensure that I'm creating layouts that are responsive at all screen sizes, while limiting my use of media queries. I know that there are techniques and properties that will help me to achieve this that I just don't know or remember to use yet. I plan on working through the CSS Tricks flexbox and grid complete guides so that I have a better understanding of every tool and property available. Once I have a better grasp of everything that is out there, I hope that I'll remember to use them in the best places moving forward on my projects. 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Pixel to REM Converter](https://nekocalc.com/px-to-rem-converter) - This is an awesome resource I use for quickly converting different measurements. 
+- [Client-side form validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript) - This resource was invaluable while learning to implement custom form validation with JavaScript for this project. It was my first time implementing something like this for a project, and I used this resource to guide me through. 
 
 ## Author
 

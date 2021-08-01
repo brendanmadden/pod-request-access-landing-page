@@ -26,6 +26,8 @@
         emailError.textContent = 'Oops! Please add your email';
       } else if(email.validity.typeMismatch) {
         emailError.textContent = 'Oops! Please check your email';
+      } else if(email.validity.tooShort) {
+        emailError.textContent = 'Oops! Please check your email.';
       }
         
       emailError.className = 'error active';
